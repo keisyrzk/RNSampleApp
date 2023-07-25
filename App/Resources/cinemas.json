@@ -1,0 +1,1799 @@
+[
+  {
+      "name": "CineMax",
+      "films": [
+          {
+              "name": "Shrek",
+              "filmDescription": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+              "poster": "https://i.etsystatic.com/18324742/r/il/f07978/3916990603/il_570xN.3916990603_cv4t.jpg",
+              "filmShows": [
+                  {
+                      "hour": "16:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "20:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "21:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "How to train your dragon",
+              "filmDescription": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father",
+              "poster": "https://image.tmdb.org/t/p/w1280/hIXX3IRFy0InUOmYeWjvhCAgQNj.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "14:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "15:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "How to train your dragon 2",
+              "filmDescription": "The thrilling second chapter of the epic How To Train Your Dragon trilogy brings back the fantastical world of Hiccup and Toothless five years later. While Astrid, Snotlout and the rest of the gang are challenging each other to dragon races (the island's new favorite contact sport), the now inseparable pair journey through the skies, charting unmapped territories and exploring new worlds. When one of their adventures leads to the discovery of a secret ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+              "poster": "https://image.tmdb.org/t/p/w1280/lRjOR4uclMQijUav4OjeZprlehu.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,14,15,23,24,25,26,56,57,58,67,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "14:30",
+                      "hall": 7,
+                      "availableSeats": [1,4,5,8,11,12,14,18,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "15:00",
+                      "hall": 8,
+                      "availableSeats": [1,4,5,8,16,17,18,19,23,24,69,70,72,73,82,83,94,95,96]
+                  },
+                  {
+                      "hour": "15:30",
+                      "hall": 10,
+                      "availableSeats": [1,4,5,8,16,17,18,19,20,21,22,23,24,25,26,27,28,69,70,72,73,82,83,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Mulan",
+              "filmDescription": "A tomboyish girl disguises herself as a young man so she can fight with the Imperial Chinese Army against the invading Huns. With help from wise-cracking dragon Mushu, Mulan just might save her country -- and win the heart of handsome Captain Li Shang.",
+              "poster": "https://image.tmdb.org/t/p/w1280/7orfSLncDBQrFQpUkoAfunWNySk.jpg",
+              "filmShows": [
+                  {
+                      "hour": "16:30",
+                      "hall": 2,
+                      "availableSeats": [15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "20:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "21:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Toy story 3",
+              "filmDescription": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+              "poster": "https://image.tmdb.org/t/p/w1280/mMltbSxwEdNE4Cv8QYLpzkHWTDo.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Up",
+              "filmDescription": "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
+              "poster": "https://image.tmdb.org/t/p/w1280/nk11pvocdb5zbFhX5oq5YiLPYMo.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Coco",
+              "filmDescription": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+              "poster": "https://image.tmdb.org/t/p/w1280/eKi8dIrr8voobbaGzDpe8w0PVbC.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Lion King",
+              "filmDescription": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?",
+              "poster": "https://image.tmdb.org/t/p/w1280/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Moana",
+              "filmDescription": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
+              "poster": "https://image.tmdb.org/t/p/w1280/z4x0Bp48ar3Mda8KiPD1vwSY3D8.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Megamind",
+              "filmDescription": "Bumbling supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find new meaning to his life.",
+              "poster": "https://image.tmdb.org/t/p/w1280/mws4hcv746iKsTv81sY393LY4YI.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Kung Fu Panda",
+              "filmDescription": "When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the `chosen one` and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won't be easy. It's up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.",
+              "poster": "https://image.tmdb.org/t/p/w1280/mk3UyyaLyXhgIhmLji25OUPXvGR.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Kung Fu Panda 2",
+              "filmDescription": "Po is now living his dream as The Dragon Warrior, protecting the Valley of Peace alongside his friends and fellow kung fu masters, The Furious Five - Tigress, Crane, Mantis, Viper and Monkey. But Po’s new life of awesomeness is threatened by the emergence of a formidable villain, who plans to use a secret, unstoppable weapon to conquer China and destroy kung fu. It is up to Po and The Furious Five to journey across China to face this threat and vanquish it. But how can Po stop a weapon that can stop kung fu? He must look to his past and uncover the secrets of his mysterious origins; only then will he be able to unlock the strength he needs to succeed.",
+              "poster": "https://image.tmdb.org/t/p/w1280/Fzyy2dauoKxjUzUPYYo3kJkJAW.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Tarzan",
+              "filmDescription": "Tarzan was a small orphan who was raised by an ape named Kala since he was a child. He believed that this was his family, but on an expedition Jane Porter is rescued by Tarzan. He then finds out that he's human. Now Tarzan must make the decision as to which family he should belong to...",
+              "poster": "https://image.tmdb.org/t/p/w1280/y6k0qn4tcDfbnrjJ2BUnoZYmMBk.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,13,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Treasure Planet",
+              "filmDescription": "When space galleon cabin boy Jim Hawkins discovers a map to an intergalactic `loot of a thousand worlds` a cyborg cook named John Silver teaches him to battle supernovas and space storms. But, soon, Jim realizes Silver is a pirate intent on mutiny!",
+              "poster": "https://image.tmdb.org/t/p/w1280/yfcoA7q9n852yVnYa0VcAchgA72.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Ice Age: The Meltdown",
+              "filmDescription": "Diego, Manny and Sid return in this sequel to the hit animated movie Ice Age. This time around, the deep freeze is over, and the ice-covered earth is starting to melt, which will destroy the trio's cherished valley. The impending disaster prompts them to reunite and warn all the other beasts about the desperate situation.",
+              "poster": "https://image.tmdb.org/t/p/w1280/oQhkGeoVcHuRBsEvxnzd62tIeB6.jpg",
+              "filmShows": [
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Road To El Dorado",
+              "filmDescription": "After a failed swindle, two con-men end up with a map to El Dorado, the fabled 'city of gold' and an unintended trip to the New World. Much to their surprise, the map does lead the pair to the mythical city, where the startled inhabitants promptly begin to worship them as gods. The only question is, do they take the worshipful natives for all they're worth, or is there a bit more to El Dorado than riches?",
+              "poster": "https://image.tmdb.org/t/p/w1280/lQnNNjT4yW3i2rmQhGibiPBnc6e.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Mulan 2",
+              "filmDescription": "Fa Mulan gets the surprise of her young life when her love, Captain Li Shang asks for her hand in marriage. Before the two can have their happily ever after, the Emperor assigns them a secret mission, to escort three princesses to Chang'an, China. Mushu is determined to drive a wedge between the couple after he learns that he will lose his guardian job if Mulan marries into the Li family.",
+              "poster": "https://image.tmdb.org/t/p/w1280/ebuRP7g3tJlLxeejylu4Wx4Qsjv.jpg",
+              "filmShows": [
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "The Theatre",
+      "films": [
+          {
+              "name": "The Matrix",
+              "filmDescription": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+              "poster": "https://image.tmdb.org/t/p/w1280/lZpWprJqbIFpEV5uoHfoK0KCnTW.jpg",
+              "filmShows": [
+                  {
+                      "hour": "16:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "20:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "21:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Lord Of The Rings: The Two Towers",
+              "filmDescription": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+              "poster": "https://image.tmdb.org/t/p/w1280/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "14:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "15:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Lord Of The Rings: The Return Of The King",
+              "filmDescription": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
+              "poster": "https://image.tmdb.org/t/p/w1280/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,14,15,23,24,25,26,56,57,58,67,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "14:30",
+                      "hall": 7,
+                      "availableSeats": [1,4,5,8,11,12,14,18,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "15:00",
+                      "hall": 8,
+                      "availableSeats": [1,4,5,8,16,17,18,19,23,24,69,70,72,73,82,83,94,95,96]
+                  },
+                  {
+                      "hour": "15:30",
+                      "hall": 10,
+                      "availableSeats": [1,4,5,8,16,17,18,19,20,21,22,23,24,25,26,27,28,69,70,72,73,82,83,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Avengers",
+              "filmDescription": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+              "poster": "https://image.tmdb.org/t/p/w1280/cezWGskPY5x7GaglTTRN4Fugfb8.jpg",
+              "filmShows": [
+                  {
+                      "hour": "16:30",
+                      "hall": 2,
+                      "availableSeats": [15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "20:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "21:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Hobbit: Desolation Of Smaug",
+              "filmDescription": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
+              "poster": "https://image.tmdb.org/t/p/w1280/gQCiuxGsfiXH1su6lp9n0nd0UeH.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Avatar",
+              "filmDescription": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+              "poster": "https://image.tmdb.org/t/p/w1280/kmcqlZGaSh20zpTbuoF0Cdn07dT.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Shutter Island",
+              "filmDescription": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and also by a mysterious doctor.",
+              "poster": "https://image.tmdb.org/t/p/w1280/aZqKsvpJDFy2UzUMsdskNFbfkOd.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Django",
+              "filmDescription": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+              "poster": "https://image.tmdb.org/t/p/w1280/5WJnxuw41sddupf8cwOxYftuvJG.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Avengers: Endgame",
+              "filmDescription": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+              "poster": "https://image.tmdb.org/t/p/w1280/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Star Wars: Empire Strikes Back",
+              "filmDescription": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+              "poster": "https://image.tmdb.org/t/p/w1280/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Star Wars: Revenge Of The Sith",
+              "filmDescription": "The evil Darth Sidious enacts his final plan for unlimited power -- and the heroic Jedi Anakin Skywalker must choose a side.",
+              "poster": "https://image.tmdb.org/t/p/w1280/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Hunger Games",
+              "filmDescription": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games. Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which “Tributes” must fight with one another until one survivor remains. Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy. If she’s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
+              "poster": "https://image.tmdb.org/t/p/w1280/iLJdwmzrHFjFwI5lvYAT1gcpRuA.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Hunger Games: Catching Fire",
+              "filmDescription": "Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a 'Victor's Tour' of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.",
+              "poster": "https://image.tmdb.org/t/p/w1280/Hn0KgefVEp0GkdTexS6gfKTMfi.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,13,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Harry Potter And The Goblet Of Fire",
+              "filmDescription": "Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure – but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for.",
+              "poster": "https://image.tmdb.org/t/p/w1280/6sASqcdrEHXxUhA3nFpjrRecPD2.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Harry Potter And The Half-Blood Prince",
+              "filmDescription": "As Harry begins his sixth year at Hogwarts, he discovers an old book marked as 'Property of the Half-Blood Prince', and begins to learn more about Lord Voldemort's dark past.",
+              "poster": "https://image.tmdb.org/t/p/w1280/bFXys2nhALwDvpkF3dP3Vvdfn8b.jpg",
+              "filmShows": [
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Men In Black",
+              "filmDescription": "After a police chase with an otherworldly being, a New York City cop is recruited as an agent in a top-secret organization established to monitor and police alien activity on Earth: the Men in Black. Agent Kay and new recruit Agent Jay find themselves in the middle of a deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies.",
+              "poster": "https://image.tmdb.org/t/p/w1280/t66nzsDMHLzzUe4rImT9qsgFk0B.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Men In Black 2",
+              "filmDescription": "Kay and Jay reunite to provide our best, last and only line of defense against a sinister seductress who levels the toughest challenge yet to the MIB's untarnished mission statement – protecting Earth from the scum of the universe. It's been four years since the alien-seeking agents averted an intergalactic disaster of epic proportions. Now it's a race against the clock as Jay must convince Kay – who not only has absolutely no memory of his time spent with the MIB, but is also the only living person left with the expertise to save the galaxy – to reunite with the MIB before the earth submits to ultimate destruction.",
+              "poster": "https://image.tmdb.org/t/p/w1280/qWjRfBwr4VculczswwojXgoU0mq.jpg",
+              "filmShows": [
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Arrival",
+              "filmDescription": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+              "poster": "https://image.tmdb.org/t/p/w1280/xGgg2UI20qtEh7mura3RRwP8d3I.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Armageddon",
+              "filmDescription": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+              "poster": "https://image.tmdb.org/t/p/w1280/coINnuCzcw5FMHBty8hcudMOBnO.jpg",
+              "filmShows": [
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Alien",
+              "filmDescription": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+              "poster": "https://image.tmdb.org/t/p/w1280/2h00HrZs89SL3tXB4nbkiM7BKHs.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Alien Resurrection",
+              "filmDescription": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
+              "poster": "https://image.tmdb.org/t/p/w1280/2mavulZivbQa8XZlRA6h3hmesl7.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,13,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Flash",
+      "films": [
+          {
+              "name": "Shrek",
+              "filmDescription": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+              "poster": "https://image.tmdb.org/t/p/w1280/140ewbWv8qHStD3mlBDvvGd0Zvu.jpg",
+              "filmShows": [
+                  {
+                      "hour": "16:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "20:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "21:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "How to train your dragon",
+              "filmDescription": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father",
+              "poster": "https://image.tmdb.org/t/p/w1280/hIXX3IRFy0InUOmYeWjvhCAgQNj.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "14:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "15:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "How to train your dragon 2",
+              "filmDescription": "The thrilling second chapter of the epic How To Train Your Dragon trilogy brings back the fantastical world of Hiccup and Toothless five years later. While Astrid, Snotlout and the rest of the gang are challenging each other to dragon races (the island's new favorite contact sport), the now inseparable pair journey through the skies, charting unmapped territories and exploring new worlds. When one of their adventures leads to the discovery of a secret ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+              "poster": "https://image.tmdb.org/t/p/w1280/lRjOR4uclMQijUav4OjeZprlehu.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,14,15,23,24,25,26,56,57,58,67,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "14:30",
+                      "hall": 7,
+                      "availableSeats": [1,4,5,8,11,12,14,18,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "15:00",
+                      "hall": 8,
+                      "availableSeats": [1,4,5,8,16,17,18,19,23,24,69,70,72,73,82,83,94,95,96]
+                  },
+                  {
+                      "hour": "15:30",
+                      "hall": 10,
+                      "availableSeats": [1,4,5,8,16,17,18,19,20,21,22,23,24,25,26,27,28,69,70,72,73,82,83,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Mulan",
+              "filmDescription": "A tomboyish girl disguises herself as a young man so she can fight with the Imperial Chinese Army against the invading Huns. With help from wise-cracking dragon Mushu, Mulan just might save her country -- and win the heart of handsome Captain Li Shang.",
+              "poster": "https://image.tmdb.org/t/p/w1280/7orfSLncDBQrFQpUkoAfunWNySk.jpg",
+              "filmShows": [
+                  {
+                      "hour": "16:30",
+                      "hall": 2,
+                      "availableSeats": [15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "20:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "21:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Toy story 3",
+              "filmDescription": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+              "poster": "https://image.tmdb.org/t/p/w1280/mMltbSxwEdNE4Cv8QYLpzkHWTDo.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Up",
+              "filmDescription": "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
+              "poster": "https://image.tmdb.org/t/p/w1280/nk11pvocdb5zbFhX5oq5YiLPYMo.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Coco",
+              "filmDescription": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+              "poster": "https://image.tmdb.org/t/p/w1280/eKi8dIrr8voobbaGzDpe8w0PVbC.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Lion King",
+              "filmDescription": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?",
+              "poster": "https://image.tmdb.org/t/p/w1280/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Moana",
+              "filmDescription": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
+              "poster": "https://image.tmdb.org/t/p/w1280/z4x0Bp48ar3Mda8KiPD1vwSY3D8.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Megamind",
+              "filmDescription": "Bumbling supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find new meaning to his life.",
+              "poster": "https://image.tmdb.org/t/p/w1280/mws4hcv746iKsTv81sY393LY4YI.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Kung Fu Panda",
+              "filmDescription": "When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the `chosen one` and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won't be easy. It's up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.",
+              "poster": "https://image.tmdb.org/t/p/w1280/mk3UyyaLyXhgIhmLji25OUPXvGR.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Kung Fu Panda 2",
+              "filmDescription": "Po is now living his dream as The Dragon Warrior, protecting the Valley of Peace alongside his friends and fellow kung fu masters, The Furious Five - Tigress, Crane, Mantis, Viper and Monkey. But Po’s new life of awesomeness is threatened by the emergence of a formidable villain, who plans to use a secret, unstoppable weapon to conquer China and destroy kung fu. It is up to Po and The Furious Five to journey across China to face this threat and vanquish it. But how can Po stop a weapon that can stop kung fu? He must look to his past and uncover the secrets of his mysterious origins; only then will he be able to unlock the strength he needs to succeed.",
+              "poster": "https://image.tmdb.org/t/p/w1280/Fzyy2dauoKxjUzUPYYo3kJkJAW.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Tarzan",
+              "filmDescription": "Tarzan was a small orphan who was raised by an ape named Kala since he was a child. He believed that this was his family, but on an expedition Jane Porter is rescued by Tarzan. He then finds out that he's human. Now Tarzan must make the decision as to which family he should belong to...",
+              "poster": "https://image.tmdb.org/t/p/w1280/y6k0qn4tcDfbnrjJ2BUnoZYmMBk.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,13,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  }
+              ]
+          },
+          {
+              "name": "Treasure Planet",
+              "filmDescription": "When space galleon cabin boy Jim Hawkins discovers a map to an intergalactic `loot of a thousand worlds` a cyborg cook named John Silver teaches him to battle supernovas and space storms. But, soon, Jim realizes Silver is a pirate intent on mutiny!",
+              "poster": "https://image.tmdb.org/t/p/w1280/yfcoA7q9n852yVnYa0VcAchgA72.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 5,
+                      "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Ice Age: The Meltdown",
+              "filmDescription": "Diego, Manny and Sid return in this sequel to the hit animated movie Ice Age. This time around, the deep freeze is over, and the ice-covered earth is starting to melt, which will destroy the trio's cherished valley. The impending disaster prompts them to reunite and warn all the other beasts about the desperate situation.",
+              "poster": "https://image.tmdb.org/t/p/w1280/oQhkGeoVcHuRBsEvxnzd62tIeB6.jpg",
+              "filmShows": [
+                  {
+                      "hour": "14:00",
+                      "hall": 6,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "The Road To El Dorado",
+              "filmDescription": "After a failed swindle, two con-men end up with a map to El Dorado, the fabled 'city of gold' and an unintended trip to the New World. Much to their surprise, the map does lead the pair to the mythical city, where the startled inhabitants promptly begin to worship them as gods. The only question is, do they take the worshipful natives for all they're worth, or is there a bit more to El Dorado than riches?",
+              "poster": "https://image.tmdb.org/t/p/w1280/lQnNNjT4yW3i2rmQhGibiPBnc6e.jpg",
+              "filmShows": [
+                  {
+                      "hour": "12:30",
+                      "hall": 2,
+                      "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                  },
+                  {
+                      "hour": "13:30",
+                      "hall": 1,
+                      "availableSeats": [1,4,5,8,11,12,14,18,69,70,72,73,74,76,84,100]
+                  },
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+              "name": "Mulan 2",
+              "filmDescription": "Fa Mulan gets the surprise of her young life when her love, Captain Li Shang asks for her hand in marriage. Before the two can have their happily ever after, the Emperor assigns them a secret mission, to escort three princesses to Chang'an, China. Mushu is determined to drive a wedge between the couple after he learns that he will lose his guardian job if Mulan marries into the Li family.",
+              "poster": "https://image.tmdb.org/t/p/w1280/ebuRP7g3tJlLxeejylu4Wx4Qsjv.jpg",
+              "filmShows": [
+                  {
+                      "hour": "14:00",
+                      "hall": 3,
+                      "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                  }
+              ]
+          },
+          {
+               "name": "The Matrix",
+               "filmDescription": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+               "poster": "https://image.tmdb.org/t/p/w1280/lZpWprJqbIFpEV5uoHfoK0KCnTW.jpg",
+               "filmShows": [
+                   {
+                       "hour": "16:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "20:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "21:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "The Lord Of The Rings: The Two Towers",
+               "filmDescription": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+               "poster": "https://image.tmdb.org/t/p/w1280/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "14:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "15:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "The Lord Of The Rings: The Return Of The King",
+               "filmDescription": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
+               "poster": "https://image.tmdb.org/t/p/w1280/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,14,15,23,24,25,26,56,57,58,67,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "14:30",
+                       "hall": 7,
+                       "availableSeats": [1,4,5,8,11,12,14,18,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "15:00",
+                       "hall": 8,
+                       "availableSeats": [1,4,5,8,16,17,18,19,23,24,69,70,72,73,82,83,94,95,96]
+                   },
+                   {
+                       "hour": "15:30",
+                       "hall": 10,
+                       "availableSeats": [1,4,5,8,16,17,18,19,20,21,22,23,24,25,26,27,28,69,70,72,73,82,83,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "The Avengers",
+               "filmDescription": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+               "poster": "https://image.tmdb.org/t/p/w1280/cezWGskPY5x7GaglTTRN4Fugfb8.jpg",
+               "filmShows": [
+                   {
+                       "hour": "16:30",
+                       "hall": 2,
+                       "availableSeats": [15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "20:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "21:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Hobbit: Desolation Of Smaug",
+               "filmDescription": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
+               "poster": "https://image.tmdb.org/t/p/w1280/gQCiuxGsfiXH1su6lp9n0nd0UeH.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Avatar",
+               "filmDescription": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+               "poster": "https://image.tmdb.org/t/p/w1280/kmcqlZGaSh20zpTbuoF0Cdn07dT.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Shutter Island",
+               "filmDescription": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and also by a mysterious doctor.",
+               "poster": "https://image.tmdb.org/t/p/w1280/aZqKsvpJDFy2UzUMsdskNFbfkOd.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Django",
+               "filmDescription": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+               "poster": "https://image.tmdb.org/t/p/w1280/5WJnxuw41sddupf8cwOxYftuvJG.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Avengers: Endgame",
+               "filmDescription": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+               "poster": "https://image.tmdb.org/t/p/w1280/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   }
+               ]
+           },
+           {
+               "name": "Star Wars: Empire Strikes Back",
+               "filmDescription": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+               "poster": "https://image.tmdb.org/t/p/w1280/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   }
+               ]
+           },
+           {
+               "name": "Star Wars: Revenge Of The Sith",
+               "filmDescription": "The evil Darth Sidious enacts his final plan for unlimited power -- and the heroic Jedi Anakin Skywalker must choose a side.",
+               "poster": "https://image.tmdb.org/t/p/w1280/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "The Hunger Games",
+               "filmDescription": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games. Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which “Tributes” must fight with one another until one survivor remains. Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy. If she’s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
+               "poster": "https://image.tmdb.org/t/p/w1280/iLJdwmzrHFjFwI5lvYAT1gcpRuA.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "The Hunger Games: Catching Fire",
+               "filmDescription": "Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a 'Victor's Tour' of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.",
+               "poster": "https://image.tmdb.org/t/p/w1280/Hn0KgefVEp0GkdTexS6gfKTMfi.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,13,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   }
+               ]
+           },
+           {
+               "name": "Harry Potter And The Goblet Of Fire",
+               "filmDescription": "Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure – but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for.",
+               "poster": "https://image.tmdb.org/t/p/w1280/6sASqcdrEHXxUhA3nFpjrRecPD2.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,70,72,73,82,83,84,91,92,93,94,95,96]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,18,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Harry Potter And The Half-Blood Prince",
+               "filmDescription": "As Harry begins his sixth year at Hogwarts, he discovers an old book marked as 'Property of the Half-Blood Prince', and begins to learn more about Lord Voldemort's dark past.",
+               "poster": "https://image.tmdb.org/t/p/w1280/bFXys2nhALwDvpkF3dP3Vvdfn8b.jpg",
+               "filmShows": [
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Men In Black",
+               "filmDescription": "After a police chase with an otherworldly being, a New York City cop is recruited as an agent in a top-secret organization established to monitor and police alien activity on Earth: the Men in Black. Agent Kay and new recruit Agent Jay find themselves in the middle of a deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies.",
+               "poster": "https://image.tmdb.org/t/p/w1280/t66nzsDMHLzzUe4rImT9qsgFk0B.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,18,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Men In Black 2",
+               "filmDescription": "Kay and Jay reunite to provide our best, last and only line of defense against a sinister seductress who levels the toughest challenge yet to the MIB's untarnished mission statement – protecting Earth from the scum of the universe. It's been four years since the alien-seeking agents averted an intergalactic disaster of epic proportions. Now it's a race against the clock as Jay must convince Kay – who not only has absolutely no memory of his time spent with the MIB, but is also the only living person left with the expertise to save the galaxy – to reunite with the MIB before the earth submits to ultimate destruction.",
+               "poster": "https://image.tmdb.org/t/p/w1280/qWjRfBwr4VculczswwojXgoU0mq.jpg",
+               "filmShows": [
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Arrival",
+               "filmDescription": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+               "poster": "https://image.tmdb.org/t/p/w1280/xGgg2UI20qtEh7mura3RRwP8d3I.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,18,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Armageddon",
+               "filmDescription": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+               "poster": "https://image.tmdb.org/t/p/w1280/coINnuCzcw5FMHBty8hcudMOBnO.jpg",
+               "filmShows": [
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Alien",
+               "filmDescription": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+               "poster": "https://image.tmdb.org/t/p/w1280/2h00HrZs89SL3tXB4nbkiM7BKHs.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,12,14,15,23,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 6,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,69,70,72,73,82,83,84,91,92,93,94,95,96]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 1,
+                       "availableSeats": [1,4,5,8,11,12,14,69,70,72,73,74,76,84,100]
+                   },
+                   {
+                       "hour": "14:00",
+                       "hall": 3,
+                       "availableSeats": [1,4,5,8,11,12,14,15,16,17,18,19,23,24,84,91,92,93,94,95,96]
+                   }
+               ]
+           },
+           {
+               "name": "Alien Resurrection",
+               "filmDescription": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
+               "poster": "https://image.tmdb.org/t/p/w1280/2mavulZivbQa8XZlRA6h3hmesl7.jpg",
+               "filmShows": [
+                   {
+                       "hour": "12:30",
+                       "hall": 2,
+                       "availableSeats": [1,4,5,8,11,13,24,25,26,56,57,58,67,68,69,70,72,73,82,83,84,99]
+                   },
+                   {
+                       "hour": "13:30",
+                       "hall": 5,
+                       "availableSeats": [1,4,5,8,11,12,14,18,26,56,57,58,67,68,69,70,72,73,74,76,84,100]
+                   }
+               ]
+           }
+      ]
+  }
+]
