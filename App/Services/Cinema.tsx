@@ -16,26 +16,8 @@ export interface Cinema {
   films: Film[];
 }
 
-export interface Order {
-  cinemaName: string;
-  filmName: string;
-  hour: string;
-  hall: number;
-  tickets: Ticket[];
-}
-
-export interface Ticket {
-  type: typeof TicketType;
-  amount: number;
-}
-
-export const TicketType = {
-  normal: 'Normal',
-  discounted: 'Discounted'
-};
-
 // handle loading local JSON
-import cinemasData from '../Resources/cinemas.json'
+import cinemasData from '../Resources/cinemas.json';
 export function getCinemas(): Promise<Cinema[]> {
   return Promise.resolve(cinemasData);
 }
