@@ -11,8 +11,22 @@ import styles from '../Resources/Styles';
 import {FilmDetailsProps} from './AppNavigation';
 import {TicketType} from '../Services/Order';
 
+// onAddToCart: (
+//   selectedHour: string | null,
+//   normalTickets: number,
+//   discountedTickets: number,
+// ) => void;
+
+export type CartDataProps = {
+  (
+    selectedHour: string | null,
+    normalTickets: number,
+    discountedTickets: number,
+  ): void;
+};
+
 function FilmDetailsView({route}: FilmDetailsProps) {
-  const {film} = route.params;
+  const {film, cartData} = route.params;
   const availableHours = film.filmShows.map(show => show.hour);
 
   const [selectedHour, setSelectedHour] = useState<string | null>(null);
@@ -67,8 +81,8 @@ function FilmDetailsView({route}: FilmDetailsProps) {
         <TouchableOpacity
           style={styles.addToCartButton}
           onPress={() => {
-            // pass the selected data back to the parent view
             //onAddToCart(selectedHour, normalTickets, discountedTickets);
+            cartData(selectedHour, normalTickets, discountedTickets);
           }}>
           <Text style={styles.addToCartButtonText}>Add to Cart</Text>
         </TouchableOpacity>

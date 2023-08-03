@@ -6,6 +6,7 @@ import {getCinemas, Cinema, Film} from '../Services/Cinema';
 import {Order} from '../Services/Order';
 import {useNavigation} from '@react-navigation/native';
 import {MainProps} from './AppNavigation';
+import {CartDataProps} from './FilmDetailsView';
 
 const MainView = () => {
   const [tabType, setTabType] = useState<keyof typeof TabType>('products');
@@ -66,9 +67,21 @@ const MainView = () => {
   */
 
   const handleFilmClick = (film: Film) => {
-    navigation.navigate(`FilmDetails`, {
+    navigation.navigate('FilmDetails', {
       film,
+      cartData: handleCartData,
     });
+  };
+
+  const handleCartData: CartDataProps = (
+    selectedHour: string | null,
+    normalTickets: number,
+    discountedTickets: number,
+  ) => {
+    // Do something with the data received from FilmDetailsView
+    console.log('Selected hour:', selectedHour);
+    console.log('Selected normal tickets:', normalTickets);
+    console.log('Selected discounted tickets:', discountedTickets);
   };
 
   const fetchCinemas = async () => {
@@ -101,9 +114,7 @@ const MainView = () => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.contentContainer}>
-        {tabContent}
-      </View>
+      <View style={styles.contentContainer}>{tabContent}</View>
       <TabBarView onTabPress={handleTabBarPress} />
     </View>
   );

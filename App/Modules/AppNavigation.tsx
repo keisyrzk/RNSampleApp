@@ -12,11 +12,12 @@ import {Film} from '../Services/Cinema';
 import {Order} from '../Services/Order';
 import BasketView from './BasketView';
 import OrderSummaryView from './OrderSummaryView';
-
+import {CartDataProps} from './FilmDetailsView';
 type RootStackParamList = {
   Main: undefined;
   FilmDetails: {
     film: Film;
+    cartData: CartDataProps;
   };
   Basket: {
     order: Order;
@@ -37,15 +38,6 @@ export type FilmDetailsProps = NativeStackScreenProps<
   'FilmDetails',
   'FilmDetails_id'
 >;
-
-// export type FilmDetailsViewProps = {
-//   route: FilmDetailsProps;
-//   onAddToCart: (
-//     selectedHour: string | null,
-//     normalTickets: number,
-//     discountedTickets: number,
-//   ) => void;
-// };
 
 export type BasketProps = NativeStackScreenProps<
   RootStackParamList,
