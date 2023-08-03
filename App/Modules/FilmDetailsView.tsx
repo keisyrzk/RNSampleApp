@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {useNavigation} from '@react-navigation/native';
 import {
   View,
   Text,
@@ -12,6 +13,7 @@ import {FilmDetailsProps} from './AppNavigation';
 import {TicketType} from '../Services/Order';
 
 function FilmDetailsView({route}: FilmDetailsProps) {
+  const navigation = useNavigation<FilmDetailsProps['navigation']>();
   const {film, cartData} = route.params;
   const availableHours = film.filmShows.map(show => show.hour);
 
@@ -67,8 +69,8 @@ function FilmDetailsView({route}: FilmDetailsProps) {
         <TouchableOpacity
           style={styles.addToCartButton}
           onPress={() => {
-            //onAddToCart(selectedHour, normalTickets, discountedTickets);
             cartData(selectedHour, normalTickets, discountedTickets);
+            navigation.pop();
           }}>
           <Text style={styles.addToCartButtonText}>Add to Cart</Text>
         </TouchableOpacity>
