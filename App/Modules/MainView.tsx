@@ -3,15 +3,14 @@ import {View, Text, FlatList, Image, TouchableOpacity} from 'react-native';
 import TabBarView, {TabType} from './TabBarView';
 import styles from '../Resources/Styles';
 import {getCinemas, Cinema, Film} from '../Services/Cinema';
-import {Order} from '../Services/Order';
+//import {Order} from '../Services/Order';
 import {useNavigation} from '@react-navigation/native';
-import {MainProps} from './AppNavigation';
-import {CartDataProps} from './FilmDetailsView';
+import {MainProps, AddToCartProps} from './AppNavigation';
 
 const MainView = () => {
   const [tabType, setTabType] = useState<keyof typeof TabType>('products');
   const [cinemas, setCinemas] = useState<Cinema[]>([]); // products
-  const [order, setOrder] = useState<Order>(); // basket
+  //const [order, setOrder] = useState<Order>(); // basket
   const navigation = useNavigation<MainProps['navigation']>();
 
   const handleTabBarPress = async (tabType: keyof typeof TabType) => {
@@ -27,45 +26,6 @@ const MainView = () => {
     setTabType(tabType);
   };
 
-  /*
-      case (1) - if value is named the same as value
-      
-      const handleFilmClick = (film: Film)
-
-      type RootStackParamList = {
-          FilmDetails: {
-            film: Film;
-          };
-      };
-
-      the definition may be short like just 'film'
-
-      const handleFilmClick = (film: Film) => {
-        navigation.navigate(`FilmDetails`, {
-          film,
-        });
-      };
-
-
-    §case (2) - if value is named differently than value
-      
-      const handleFilmClick = (film: Film)
-
-      type RootStackParamList = {
-          FilmDetails: {
-            filmParam: Film;
-          };
-      };
-
-      the definition has to explicitly point the key like so
-
-      const handleFilmClick = (film: Film) => {
-        navigation.navigate(`FilmDetails`, {
-          filmParam: film,
-        });
-      };
-  */
-
   const handleFilmClick = (film: Film) => {
     navigation.navigate('FilmDetails', {
       film,
@@ -73,12 +33,11 @@ const MainView = () => {
     });
   };
 
-  const handleCartData: CartDataProps = (
+  const handleCartData: AddToCartProps = (
     selectedHour: string | null,
     normalTickets: number,
     discountedTickets: number,
   ) => {
-    // Do something with the data received from FilmDetailsView
     console.log('Selected hour:', selectedHour);
     console.log('Selected normal tickets:', normalTickets);
     console.log('Selected discounted tickets:', discountedTickets);

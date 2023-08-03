@@ -12,12 +12,20 @@ import {Film} from '../Services/Cinema';
 import {Order} from '../Services/Order';
 import BasketView from './BasketView';
 import OrderSummaryView from './OrderSummaryView';
-import {CartDataProps} from './FilmDetailsView';
+
+export type AddToCartProps = {
+  (
+    selectedHour: string | null,
+    normalTickets: number,
+    discountedTickets: number,
+  ): void;
+};
+
 type RootStackParamList = {
   Main: undefined;
   FilmDetails: {
     film: Film;
-    cartData: CartDataProps;
+    cartData: AddToCartProps;
   };
   Basket: {
     order: Order;
