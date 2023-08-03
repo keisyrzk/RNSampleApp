@@ -25,7 +25,7 @@ type RootStackParamList = {
   Main: undefined;
   FilmDetails: {
     film: Film;
-    cartData: AddToCartProps;
+    onAddToCart: AddToCartProps;
   };
   Basket: {
     order: Order;

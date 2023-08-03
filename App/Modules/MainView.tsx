@@ -29,11 +29,11 @@ const MainView = () => {
   const handleFilmClick = (film: Film) => {
     navigation.navigate('FilmDetails', {
       film,
-      cartData: handleCartData,
+      onAddToCart: handleAddToCart,
     });
   };
 
-  const handleCartData: AddToCartProps = (
+  const handleAddToCart: AddToCartProps = (
     selectedHour: string | null,
     normalTickets: number,
     discountedTickets: number,
