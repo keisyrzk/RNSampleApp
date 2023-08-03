@@ -13,19 +13,16 @@ import {Order} from '../Services/Order';
 import BasketView from './BasketView';
 import OrderSummaryView from './OrderSummaryView';
 
-export type AddToCartProps = {
-  (
-    selectedHour: string | null,
-    normalTickets: number,
-    discountedTickets: number,
-  ): void;
-};
-
 type RootStackParamList = {
-  Main: undefined;
+  Main:
+    | undefined
+    | {
+        selectedHour: string | null;
+        normalTickets: number;
+        discountedTickets: number;
+      };
   FilmDetails: {
     film: Film;
-    onAddToCart: AddToCartProps;
   };
   Basket: {
     order: Order;

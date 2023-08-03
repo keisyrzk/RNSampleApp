@@ -14,7 +14,7 @@ import {TicketType} from '../Services/Order';
 
 function FilmDetailsView({route}: FilmDetailsProps) {
   const navigation = useNavigation<FilmDetailsProps['navigation']>();
-  const {film, onAddToCart} = route.params;
+  const {film} = route.params;
   const availableHours = film.filmShows.map(show => show.hour);
 
   const [selectedHour, setSelectedHour] = useState<string | null>(null);
@@ -65,8 +65,11 @@ function FilmDetailsView({route}: FilmDetailsProps) {
         <TouchableOpacity
           style={styles.addToCartButton}
           onPress={() => {
-            onAddToCart(selectedHour, normalTickets, discountedTickets);
-            navigation.pop();
+            navigation.navigate('Main', {
+              selectedHour,
+              normalTickets,
+              discountedTickets,
+            });
           }}>
           <Text style={styles.addToCartButtonText}>Add to Cart</Text>
         </TouchableOpacity>

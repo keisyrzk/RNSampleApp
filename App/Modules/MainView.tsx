@@ -5,9 +5,9 @@ import styles from '../Resources/Styles';
 import {getCinemas, Cinema, Film} from '../Services/Cinema';
 //import {Order} from '../Services/Order';
 import {useNavigation} from '@react-navigation/native';
-import {MainProps, AddToCartProps} from './AppNavigation';
+import {MainProps} from './AppNavigation';
 
-const MainView = () => {
+const MainView = ({route}: MainProps) => {
   const [tabType, setTabType] = useState<keyof typeof TabType>('products');
   const [cinemas, setCinemas] = useState<Cinema[]>([]); // products
   //const [order, setOrder] = useState<Order>(); // basket
@@ -29,19 +29,17 @@ const MainView = () => {
   const handleFilmClick = (film: Film) => {
     navigation.navigate('FilmDetails', {
       film,
-      onAddToCart: handleAddToCart,
     });
   };
 
-  const handleAddToCart: AddToCartProps = (
-    selectedHour: string | null,
-    normalTickets: number,
-    discountedTickets: number,
-  ) => {
-    console.log('Selected hour:', selectedHour);
-    console.log('Selected normal tickets:', normalTickets);
-    console.log('Selected discounted tickets:', discountedTickets);
-  };
+  useEffect(() => {
+    console.log('Selected hour:', route.params?.selectedHour);
+    console.log('Selected normal tickets:', route.params?.normalTickets);
+    console.log(
+      'Selected discounted tickets:',
+      route.params?.discountedTickets,
+    );
+  }, [route.params]);
 
   const fetchCinemas = async () => {
     try {
