@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {
@@ -8,10 +9,13 @@ import {
 
 import MainView from './MainView';
 import FilmDetailsView from './FilmDetailsView';
-import {Film} from '../Services/Cinema';
-import {Order} from '../Services/Order';
+import { Film } from '../Services/Cinema';
+import { Order } from '../Services/Order';
 import BasketView from './BasketView';
 import OrderSummaryView from './OrderSummaryView';
+import StarWarsView from './StarWarsView';
+
+const queryClient = new QueryClient();
 
 type RootStackParamList = {
   Main:
@@ -30,6 +34,7 @@ type RootStackParamList = {
   OrderSummary: {
     order: Order;
   };
+  StarWars: undefined;
 };
 
 export type MainProps = NativeStackScreenProps<
@@ -56,10 +61,17 @@ export type OrderSummaryProps = NativeStackScreenProps<
   'OrderSummary_id'
 >;
 
+export type StarWarsProps = NativeStackScreenProps<
+  RootStackParamList,
+  'StarWars',
+  'StarWars_id'
+>;
+
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const AppNavigation = () => {
   return (
+    <QueryClientProvider client={queryClient}>
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Main">
         <Stack.Screen
@@ -91,8 +103,17 @@ const AppNavigation = () => {
             headerShown: false,
           }}
         />
+        <Stack.Screen
+          name="StarWars"
+          component={StarWarsView}
+          options={{
+            title: 'StarWars',
+            headerShown: false,
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
+    </QueryClientProvider>
   );
 };
 

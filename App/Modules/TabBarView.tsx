@@ -7,6 +7,7 @@ interface TabBarViewProps {
 
 export const TabType = {
   products: 'Products',
+  starWars: 'StarWars',
   settings: 'Settings',
 };
 

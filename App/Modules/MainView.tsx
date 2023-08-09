@@ -1,22 +1,24 @@
 import React, {useEffect, useState} from 'react';
 import {View, Text, FlatList, Image, TouchableOpacity} from 'react-native';
-import TabBarView, {TabType} from './TabBarView';
+import TabBarView, { TabType } from './TabBarView';
 import styles from '../Resources/Styles';
-import {getCinemas, Cinema, Film} from '../Services/Cinema';
-//import {Order} from '../Services/Order';
-import {useNavigation} from '@react-navigation/native';
-import {MainProps} from './AppNavigation';
+import { getCinemas, Cinema, Film } from '../Services/Cinema';
+import { useNavigation } from '@react-navigation/native';
+import { MainProps } from './AppNavigation';
+import StarWarsView from './StarWarsView';
 
 const MainView = ({route}: MainProps) => {
   const [tabType, setTabType] = useState<keyof typeof TabType>('products');
   const [cinemas, setCinemas] = useState<Cinema[]>([]); // products
-  //const [order, setOrder] = useState<Order>(); // basket
   const navigation = useNavigation<MainProps['navigation']>();
 
   const handleTabBarPress = async (tabType: keyof typeof TabType) => {
     switch (tabType) {
       case 'products':
         fetchCinemas();
+        break;
+
+      case 'starWars':
         break;
 
       default:
@@ -64,7 +66,7 @@ const MainView = ({route}: MainProps) => {
       break;
     default:
       tabContent = (
-        <Text style={styles.titleSecondary}> Tab_settings_content </Text>
+        <StarWarsView />
       );
       break;
   }
