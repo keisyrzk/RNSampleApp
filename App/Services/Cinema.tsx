@@ -16,26 +16,24 @@ export interface Cinema {
   films: Film[];
 }
 
-export interface Order {
-  cinemaName: string;
-  filmName: string;
-  hour: string;
-  hall: number;
-  tickets: Ticket[];
+// MARK: Using async/await
+export async function getCinemas(): Promise<Cinema[]> {
+  const response = await fetch('https://mocki.io/v1/dff8c19a-24b1-4449-bf9f-be76cca10aab');
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  const data = await response.json();
+  return data as Cinema[];
 }
 
-export interface Ticket {
-  type: typeof TicketType;
-  amount: number;
-}
-
-export const TicketType = {
-  normal: 'Normal',
-  discounted: 'Discounted'
-};
-
-// handle loading local JSON
-import cinemasData from '../Resources/cinemas.json'
-export function getCinemas(): Promise<Cinema[]> {
-  return Promise.resolve(cinemasData);
-}
+// MARK: Using .then
+// export function getCinemas(): Promise<Cinema[]> {
+//   return fetch('https://mocki.io/v1/dff8c19a-24b1-4449-bf9f-be76cca10aab')
+//     .then(response => {
+//       if (!response.ok) {
+//         throw new Error(`HTTP error! status: ${response.status}`);
+//       }
+//       return response.json();
+//     })
+//     .then(data => data as Cinema[]);
+// }
